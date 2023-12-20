@@ -16,5 +16,3 @@ sunday=predict(reg_model,newdata=data.frame(daily=250))
 sunday
 model<-lm(sunday~daily,Newspaper data)
 summary (model)
-
-
